@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep Wędkarski</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #006400; color: white; padding: 15px 20px; text-align: center; }
+        nav { display: flex; justify-content: space-around; background-color: #228B22; padding: 10px 0; }
+        nav a { color: white; text-decoration: none; padding: 14px 20px; }
+        nav a:hover { background-color: #006400; }
+        .banner { background-image: url('banner-wedkarstwo.jpg'); height: 400px; background-size: cover; color: white; display: flex; align-items: center; justify-content: center; }
+        .banner h1 { font-size: 48px; background-color: rgba(0, 0, 0, 0.5); padding: 20px; }
+        .products { display: flex; flex-wrap: wrap; justify-content: space-around; margin: 20px 0; }
+        .product { background-color: white; padding: 20px; margin: 10px; width: 200px; text-align: center; border-radius: 5px; }
+        .product img { width: 100%; height: 150px; object-fit: cover; }
+        .footer { background-color: #006400; color: white; text-align: center; padding: 20px 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sklep Wędkarski</h1>
+</header>
+
+<nav>
+    <a href="#">Strona Główna</a>
+    <a href="#">Katalog</a>
+    <a href="#">Promocje</a>
+    <a href="#">Blog</a>
+    <a href="#">Kontakt</a>
+</nav>
+
+<div class="banner">
+    <h1>Wszystko, czego potrzebujesz na wyprawę wędkarską!</h1>
+</div>
+
+<section class="products">
+    <div class="product">
+        <img src="wedka1.jpg" alt="Wędka">
+        <h2>Wędka Shimano</h2>
+        <p>499,99 PLN</p>
+        <button>Kup Teraz</button>
+    </div>
+    <div class="product">
+        <img src="kolowrotek1.jpg" alt="Kołowrotek">
+        <h2>Kołowrotek Daiwa</h2>
+        <p>299,99 PLN</p>
+        <button>Kup Teraz</button>
+    </div>
+    <!-- Więcej produktów -->
+</section>
+
+<footer class="footer">
+    <p>&copy; 2024 Sklep Wędkarski. Wszystkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
